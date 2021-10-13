@@ -5,6 +5,7 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.offset.PointOption;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
+import net.serenitybdd.screenplay.Tasks;
 import net.thucydides.core.annotations.Step;
 
 public class SwipeByCoordinates implements Interaction{
@@ -19,6 +20,10 @@ public class SwipeByCoordinates implements Interaction{
 		this.inicialY = inicialY;
 		this.endX = endX;
 		this.endY = endY;
+	}
+
+	public static SwipeByCoordinates desplazar(int inicialX, int inicialY, int endX, int endY){
+		return Tasks.instrumented(SwipeByCoordinates.class,inicialX,inicialY,endX,endY);
 	}
 
 	@Override

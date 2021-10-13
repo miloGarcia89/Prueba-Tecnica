@@ -1,7 +1,5 @@
 package com.choucair.moviles.app.interactions.choucair;
 
-import org.openqa.selenium.WebDriver;
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -11,6 +9,7 @@ import io.appium.java_client.ios.IOSElement;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.webdriver.WebDriverFacade;
+import org.openqa.selenium.WebDriver;
 
 public class GetDriver {
 

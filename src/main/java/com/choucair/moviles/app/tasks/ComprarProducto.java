@@ -2,6 +2,7 @@ package com.choucair.moviles.app.tasks;
 
 import com.choucair.moviles.app.interactions.choucair.SwipeByCoordinates;
 import com.choucair.moviles.app.interactions.choucair.TakeScreenshot;
+import com.choucair.moviles.app.interactions.choucair.Wait;
 import com.choucair.moviles.app.interactions.choucair.swagLabs.AgregarProducto;
 import com.choucair.moviles.app.interactions.choucair.swagLabs.BuscarElementoTexto;
 import com.choucair.moviles.app.interactions.choucair.swagLabs.FinalizarCompra;

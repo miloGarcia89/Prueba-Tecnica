@@ -5,7 +5,6 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.thucydides.core.annotations.Step;
-
 import java.util.logging.Logger;
 
 public class AbreLaApp implements Task {
